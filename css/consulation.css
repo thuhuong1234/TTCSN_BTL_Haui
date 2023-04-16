@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.consulation-container {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.consulation {
+  display: flex;
+  justify-content: center;
+}
+
+.consulation-content {
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+.content-cons-content {
+  padding-bottom: 45px;
+}
+
+.content-cons-content > h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 65px;
+  text-align: center;
+}
