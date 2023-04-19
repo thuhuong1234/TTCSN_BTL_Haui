@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: "Basis Grotesque Pro", sans-serif; */
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper1{
+    background-image: url("https://www.viivue.com/wp-content/uploads/2023/02/FS-Banner-BG.jpg.webp");
+    display: flex;
+    width: 95%;
+    margin-left: 2.5%;
+    border-radius: 20px;
+    justify-content: space-around;
+    height: 460px;
+}
+
+.text-left, .img1{
+    display: block;
+    width: 38%;
+    color: white;
+    margin-top: 30px;
+}
+
+.text-left{
+    margin-top: 50px;
+}
+
+.img1{
+    margin-right: 80px;
+}
+
+.link-title a{
+    text-decoration: none;
+    color: white;
+}
+
+.link-title a:hover{
+    text-decoration: underline;
+}
+
+#link-title3{
+    text-decoration: underline;
+}
+
+#foodsource{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 37px;
+}
+
+#whatwedid{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#platform{
+    margin-top: 20px;
+}
+
+.prg1{
+    font-size: 48px;
+}
+
+.wrapper2{
+    width: 50%;
+    margin-left: 23%;
+    margin-top: 65px;
+    margin-bottom: 70px;
+}
+
+.prg2, .prg3{
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.wrapper3{
+    display: block;
+    width: 84%;
+    margin-left: 8%;
+    height: 755px;
+    background-color: #E1E1E1;
+    margin-bottom: 0;
+}
+
+.scroll-wrapper3{
+    display: block;
+    margin-top: -5px;
+    margin-left: 110px;
+    margin-right: 115px;
+    height: 590px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.scroll1{
+    margin-left: 110px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.wrapper4{
+    display: block;
+    background-color: #E1E1E1;
+    margin-top: 10px;
+}
+
+#aboutus, #products{
+    padding-top: 100px;
+    margin-top: 70px;
+    margin-left: 8%;
+    font-size: 37px;
+}
+
+#under-aboutus, #under-products{
+    margin-left: 8%;
+    margin-top: 20px;
+    width: 55%;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.img-about-us{
+    margin-top: -10px;
+    margin-left: 4%;
+    width: 1350px;
+    height: 1400px;
+    /* background-color: pink; */
+}
+
+.wrapper5{
+    margin: 20px;
+    width: 98%;
+    padding-top: 10px;
+}
+
+.wrapper6{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.theoutcome{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.theoutcome ul{
+    margin-top: 20px;
+}
+
+.theoutcome ul li{
+    font-size: 16px;
+}
+
+#li2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#buttonvs{
+    display: block;
+    border: 1px solid black;
+    background-color: white;
+    width: 160px;
+    margin-left: 45%;
+    margin-top: 50px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px 0px black; 
+}
+
+#buttonvs:hover{
+    background-color: #f1c400;
+}
+
+#related-project{
+    margin-top: 70px;
+    margin-left: 8%;
+    font-size: 37px;
+}
+
+.related-project{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 40px;
+}
+
+.huynchi-title, .source-of-asia-title, .bong-bach-tuyet-title, .garmex-title{
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.huynchi-links a, .source-of-asia-links a,.bong-bach-tuyet-links a,.garmex-links a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.huynchi-links, .source-of-asia-links,.bong-bach-tuyet-links, .garmex-links{
+    margin-top: 5px;
+    padding: 0;
+    margin-bottom: 70px;
+}
+
+.img-huynchi, .source-of-asia,.bong-bach-tuyet,.garmex{
+    width: 400px;
+    padding-right: 40px;
+}
+
+.img-huynchi, .img-source-of-asia, .img-bong-bach-tuyet, .img-garmex {
+    width: 400px;
+    border-radius:10px;
+}
+
+/* .work-list-line1, .work-list-line2, .work-list-line3, .work-list-line4, .work-list-line5, .work-list-line6, .work-list-line7, .work-list-line8, .work-list-line9, .work-list-line10{
+    display: flex;
+    margin-left: 7%;
+} */
+
+.related-project a:hover{
+    color: #f1c400;
+}
+
+.related-project img:hover{
+    transform: scale(1.1);
+}
+
+.related-project img{
+    transition: all 0.5s ease-in-out;
+}
+
+/* .related-project .zoom{
+    overflow: hidden;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 10px;
+} */
+
+.related-project .zoom2{
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* .video-vero-asean{
+    height: 405px;
+    display: block;
+    background-color: black;
+} */
+
+/* .work-anh1:hover{
+    transform: none;
+} */
+

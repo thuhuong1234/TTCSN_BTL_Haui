@@ -1,0 +1,130 @@
+*{
+    /* font-family: "Basis Grotesque Pro", sans-serif; */
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Work-element1{
+    text-align: center;
+}
+
+.latest-works{
+    font-family: "SVN-Recoleta", serif;
+    font-size: 240px;
+    text-align: center;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.paragraph-and-image1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph-under-latest-works{
+    margin-top: 0px;
+    text-align: center;
+    width: 33%;
+    margin-left: 33%;
+    padding: 0;
+    font-size: 17px;
+}
+
+.paragraph-under-latest-works a{
+    color: black;
+}
+
+.work-anh1{
+    margin-right: 120px;
+    margin-top: 50px;
+}
+
+.work-anh2{
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.food-source-international-links, .food-source-international-title{
+    margin-left: 7%;
+}
+
+.food-source-international-title, .huynchi-title, .source-of-asia-title, .artera-home-title, .la-maison-title, .catherine-denoual-maison-title, .mia-saigon-title, .vero-asean-title, .rmit-vietnam-title, .bong-bach-tuyet-title, .tapetco-title, .biotrade-title, .garmex-title, .momio-title, .lit-title, .koru-education-title, .the-bottle-shop-title, .bac-ha-tourism-title, .duc-khang-hospital-title, .animal-doctors-international-title{
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.food-source-international-links a, .huynchi-links a, .source-of-asia-links a, .artera-home-links a, .la-maison-links a, .catherine-denoual-maison-links a, .mia-saigon-links a, .vero-asean-links a, .rmit-vietnam-links a, .bong-bach-tuyet-links a, .tapetco-links a, .biotrade-links a, .garmex-links a, .momio-links a, .lit-links a, .koru-education-links a, .the-bottle-shop-links a, .bac-ha-tourism-links a, .duc-khang-hospital-links a, .animal-doctors-international-links a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.food-source-international-links, .huynchi-links, .source-of-asia-links, .artera-home-links, .la-maison-links, .catherine-denoual-maison-links, .mia-saigon-links, .vero-asean-links,.rmit-vietnam-links, .bong-bach-tuyet-links, .tapetco-links, .biotrade-links, .garmex-links, .momio-links, .lit-links, .koru-education-links, .the-bottle-shop-links, .bac-ha-tourism-links, .duc-khang-hospital-links, .animal-doctors-international-links{
+    margin-top: 5px;
+    padding: 0;
+    margin-bottom: 70px;
+}
+
+.huynchi, .source-of-asia, .artera-home, .la-maison, .catherine-denoual-maison, .mia-saigon, .vero-asean, .rmit-vietnam, .bong-bach-tuyet, .tapetco, .biotrade, .garmex, .momio, .lit, .koru-education, .the-bottle-shop, .bac-ha-tourism, .duc-khang-hospital, .animal-doctors-international{
+    width: 45%;
+    padding-right: 40px;
+}
+
+.video-huynchi, .img-source-of-asia, .img-artera-home, .img-la-maison, .img-catherine-denoual-maison, .img-mia-saigon, .img-rmit-vietnam, .img-bong-bach-tuyet, .img-tapetco, .img-biotrade, .img-garmex, .img-momio, .img-lit, .img-koru-education, .img-the-bottle-shop, .img-bac-ha-tourism, .img-duc-khang-hospital, .img-animal-doctors-international {
+    width: 100%;
+    border-radius:10px;
+}
+
+.work-list-line1, .work-list-line2, .work-list-line3, .work-list-line4, .work-list-line5, .work-list-line6, .work-list-line7, .work-list-line8, .work-list-line9, .work-list-line10{
+    display: flex;
+    margin-left: 7%;
+}
+
+a:hover{
+    color: #f1c400;
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+img{
+    transition: all 0.5s ease-in-out;
+}
+
+.zoom{
+    overflow: hidden;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 10px;
+}
+
+.zoom2{
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.video-vero-asean{
+    height: 405px;
+    display: block;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.work-anh1:hover{
+    transform: none;
+}
+
+#linkhome:hover{
+    text-decoration: underline;
+}
+
+#linkhome{
+    text-decoration: none;
+    color: black;
+}
