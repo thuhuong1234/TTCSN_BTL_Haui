@@ -52,6 +52,7 @@
 
 .header__register {
    display: block;
+   text-align: center;
 }
 
 .header__register > a {
@@ -164,17 +165,117 @@
 .body__introdution__container {
     background-color: #ffff;
     background-image: url("https://www.viivue.com/wp-content/themes/viivue/assets/images/noise-texture-200.png");
-
+    padding: 0 35px;
 }
 
-.body__introduction--heading-content > p {
+.body__introduction--heading-content-below {
+    text-align: center;
+    color: #141414;
+    min-width: 240px;
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+.body__introduction--heading-content-below > p {
     font-size: 16px;
     color: #141414;
-    font-weight: 520;
+    font-weight: 500;
+    opacity: 0.85;
+}
+
+.body__introduction--heading-content-below > h2 > span {
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.1;
+    margin-bottom: 5px;
+    font-weight: 300;
 }
 
 .body__introduction--img-components {
     padding: 25px 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 55px;
+}
+
+.body__introduction--img-container-components {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 5px;
+}
+
+.body__introduction--img-item {
+    display: flex;
+    align-self: center;
+}
+
+.body__introduction--img-item > img{
+    width: 215px;
+    height: 215px;
+    
+}
+
+.body__introduction--img-header {
+    line-height: 1.25;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: "SVN-Recoleta", serif;
+}
+
+.body__introduction--img-header > h3 {
+    font-weight: 400;
+    text-align: center;
+    min-width: 300px;
+}
+
+.body__introduction--img-desc {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+    opacity: 0.95;
+    color: #141414;
+    padding: 0 34px;
+}
+
+.help-brand {
+    transform: translate(0px, 0px);
+    left: -0.4px;
+    top: -0.0374756px;
+    margin: 0px;
+    max-height: 746px;
+    height: 746px;
+    padding: 100px 0px;
+    box-sizing: border-box;
+    background-image: url("https://www.viivue.com/wp-content/themes/viivue/assets/images/noise-texture-200.png");
+}
+
+.help-brand--top-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 106.5px 70px;
+    /* padding: 0 35px; */
+}
+
+.help-brand--top-text {
+    width: 70%;
+    /* margin:0 0.5px 70px; */
+    
+}
+
+.help-brand--top-text > h2 {
+    line-height: 1.1;
+    margin-bottom: 0px;
+    font-size: 64px;
+    font-family: "SVN-Recoleta", serif;
+    font-weight: 400;
+    
+}
+
+.customer--discussing {
+    transform: translate3d(0px, 0.6253%, 0px);
+    opacity: 0.9844;
+    width: 30%;
 }
 
 #footer {
