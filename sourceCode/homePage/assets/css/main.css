@@ -124,6 +124,14 @@
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;;
 }
 
+.txt_gif_arrow::after {
+    top: 0;
+    left: 0;
+    background-image: url(https://www.viivue.com/wp-content/themes/viivue/assets/images/arrow.gif);
+    width: 1em;
+    transform: translate(-0.3em,-0.2em);
+}
+
 /* .body__introduction--heading-animation {
     height: 560px;
 } */
@@ -137,6 +145,10 @@
     max-height: 550px;
     padding-bottom: 60px;
     scale: 1.1;
+    transition-duration: .25s;
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
 /* .body__introduction--heading-animation > video > source {
@@ -278,6 +290,51 @@
     width: 30%;
 }
 
+.brand-register {
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #141414;
+    font-family: "Basis Grotesque Pro", san-serif;
+    font-size: 16px;
+}
+
+.first-row--register {
+    margin-bottom: 20px;
+    padding: 2px 0px;
+    display: inline-block;
+}
+
+.brand-register-component {
+    padding: 0 13px;
+    display: inline-block;
+}
+
+.brand-register-logo {
+    width: 235px;
+    padding: 35px;
+    background: #fff;
+    aspect-ratio: 235/145;
+    border-radius: 15px;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 0 #000;
+    height: 145px;
+}
+
+.brand-register-logo img {
+    vertical-align: middle;
+    object-fit: contain;
+    width: 163.4px;
+    height: 73.4px;
+}
+
+.second-row--register {
+    margin: 0 24px;
+}
 #footer {
 
 }
