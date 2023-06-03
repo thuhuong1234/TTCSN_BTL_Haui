@@ -1,0 +1,17 @@
+*{margin:0;padding:0;}
+*{font-family: "SVN-Recoleta", 'Times New Roman';font-size: 17px;}
+.Ex_Wordpress_header{width:100%;height:auto;display:flex;padding-left: 3%;position: fixed;background-color: white;}
+.Ex_Wordpress_header h1{width:90%;}
+.Ex_Wordpress_content h2{font-size: 35px;}
+.Ex_Wordpress_header .Ex_Wp_close{border:0;background-color: white;font-size: 20px;}
+.Ex_Wp_close span:hover{color: rgb(255, 200, 0);}
+.Ex_Wordpress_img{width:100%;height:auto;}
+.Ex_Wordpress_img img{width:100%;height:auto}
+
+.Ex_Wordpress_content{padding-bottom: 40px ;}
+ .Ex_Wordpress_content .Ex_Wp_content_ul{list-style-type: none;padding-left: 10px; max-width: 70%; }
+ .Ex_Wordpress_content ul li::before{color:rgb(255, 174, 0);content:'\25A0';position: relative;left:-10px;top:0px;font-size: 10px;}
+ .Ex_Wordpress_content .Ex_Wp_btn{box-shadow:3px 3px ;border-radius: 5px; padding: 7px;}
+ .Ex_Wordpress_content .Ex_Wp_btn a{text-decoration: none;color:black}
+ .Ex_Wordpress_content .Ex_Wp_btn:hover{box-shadow: 5px 5px; transition: 1s;background-color: rgb(255, 174, 0);}
+  .Ex_Wordpress_content{max-width: 70%;padding-left: 3%;}
