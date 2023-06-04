@@ -1,0 +1,31 @@
+*{padding:0;margin:0}
+.Web_footer{height:450px; background-color: black; color:white;width:100%;padding-top:40px;padding-bottom:0px;}
+.footer_1{height:350px;width:100%;border-bottom:3px grey solid;padding:0;margin:0}
+
+#footer_1_left{height:400px;width:55%;float:left;}
+#footer_1_left a{color:white;text-decoration: none; font-size:80px}
+#footer_1_right{float:right;height:400px;width:28%;font-size:18px}
+#footer_1_right a{color:white;text-decoration:none;}
+#footer_1_right .hi:hover{color:yellow}
+#footer_1_center .list{list-style-type: square;line-height: 36px;font-size:23px;color:yellow;}
+#footer_1_center a{color:white;text-decoration: none;font-weight: bold;}
+#footer_1_center .list li a:hover{color:yellow}
+
+.footer_2{height:60px;margin:0;padding:0;clear:both}
+#footer_2_left{float:left;width:75%;height:50px;font-size:18px}
+#footer_2_right a{text-decoration: none; color:white;font-size:18px;}
+#footer_2_center a{text-decoration: none; color:white;font-size:18px;}
+#footer_2_right a:hover{color:yellow}
+#footer_2_center a:hover{color:yellow}
+#footer_2_right{float:right;width:13%;height:50px;}
+#footer_2_center{height:50px;}
+
+ #ft1r_1{height:130px;float:left; width: 10%}
+ #ft1r_2{height:130px;}
+ #ft1r_3{height:70px;float:left;width:10%;}
+ #ft1r_4{height:70px}
+ #ft1r_5{height:80px;float:left;width:10%}
+ #Ft1r_6{height:80px;}
+ #footer_1_right .ft1r_7{float:left;height:70px;width:18%;text-align: right;}
+ #footer_1_right .ft1r_7 a{font-size:30px}
+ #footer_1_right .ft1r_7 a:hover{color:yellow}
