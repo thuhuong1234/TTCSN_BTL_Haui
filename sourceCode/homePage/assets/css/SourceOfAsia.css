@@ -1,0 +1,159 @@
+#header {
+    padding: 15px 35px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+.container-fluid {
+    background-image: url("https://www.viivue.com/wp-content/themes/viivue/assets/images/noise-texture-200.png");
+    padding: 0;
+}
+
+/* Day la phan header */
+.header__logo {
+    align-self: flex-start;
+}
+
+.header__logo a {
+    transition: all .3 ease;
+}
+
+.header__logo a > img {
+    aspect-ratio: 178/46;
+    height: 32px;
+}
+
+.header__menu {
+    align-self: center;
+}
+
+.header__menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header__menu ul > li {
+    display: inline-block;
+    margin-right: 48px;
+    padding: 0;
+    position: relative;
+    list-style: none;
+}
+
+.header__menu ul > li > a {
+    font-size: 16px;
+    display: block;
+    color: #141414;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header__menu ul > li > a:hover,
+.header__menu ul > li > a:focus {
+    text-decoration: underline;
+}
+
+.header__register {
+   display: block;
+   text-align: center;
+}
+
+.header__register > a {
+    color: #141414;
+    text-decoration: none;
+    font-size: 16px;
+    min-height: 40px;
+    line-height: 1.25;
+    border: 2px solid;
+    box-shadow: 5px 5px 0 #141414;
+    border-radius: 5px;
+    padding: 8px 23px;
+    justify-content: center;
+    display: inline-flex;
+    text-align: center;
+    background-color: white;
+    font-weight: 500;
+}
+
+.header__register > a:hover {
+    /* background: #e8c509; */
+    outline: 0;
+    box-shadow: 7px 7px 0px #141414;
+    transition: all .3s ease;
+    text-decoration: none;
+    background-color: #f4d009;
+}
+
+.main-content {
+    /* padding-top: 80px; */
+}
+/* Day la phan banner */
+#banner {
+    padding: 0 35px;
+    margin-bottom: 60px;
+}
+
+.banner_inner {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.banner_studies {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+}
+
+.banner_img {
+    width: auto;
+    object-fit: cover;
+    object-position: center center;
+    height: 100%;
+    /* width: 100%; */
+    min-height: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    aspect-ratio: 3;
+}
+
+.banner-text-wrapper{
+    margin: 0 70.8px;
+    padding: 0 35px;
+    position: absolute;
+}
+
+#content {
+    margin: 0 105.8;
+    padding: 0 35px;
+}
+ /* Video */
+.video {
+    /* user-select: none;
+    position: relative;
+    max-width: 1248px;
+    max-height: 772px;
+    margin: 0 -20px;
+    padding: 0 20px;
+    background: #000;
+    aspect-ratio: 16/9;
+    margin-bottom: 100px; */
+}
+
+.video > video {
+    user-select: none;
+    position: relative;
+    max-width: 1248px;
+    max-height: 772px;
+    background: #000;
+    aspect-ratio: 16/9;
+    margin-bottom: 100px;
+}
+
