@@ -157,3 +157,418 @@
     margin-bottom: 100px;
 }
 
+#main-content{
+    padding-top: 10px;
+}
+/* Phần header */
+.first-slide {
+    background-color: #fff;
+    background-image: url("https://www.viivue.com/wp-content/themes/viivue/assets/images/noise-texture-200.png");
+    text-align: center;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.image-first-slide img{
+    border-radius: 20px;
+    overflow: hidden;
+    height: 560px;
+    width: 95%;
+}
+
+.text-first-slide{
+    position: absolute;
+    display: flex;
+    padding: 0 35px 0 35px;
+    margin: 0 70.8px 0 70.8px;
+}
+
+.left-text-slide {
+    text-align: start;
+    margin: 81px 0px 0px 73px;
+    width: 500px;
+}
+
+.left-text-slide h2 {
+    font-family: "SVN-Recoleta", serif;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.header_pixel_text {
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.top-desc-slide {
+    padding-bottom: 15px;
+}
+
+.top-desc-slide a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.top-desc-slide a:last-child {
+    text-decoration: underline;
+}
+
+.top-desc-slide svg {
+    margin: -8px 10px 0 10px;
+}
+
+.bottom-desc-slide {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.what-we-did{
+    margin-bottom: 45px;
+}
+
+/* Phần translate complex */
+.translate-complex {
+    /* text-align: center; */
+    flex: 1;
+    padding: 0 50px 0 50px;
+    margin: 0 300px 0 340px;
+    padding-bottom: 70px;
+    opacity: 0.95;
+
+}
+
+.translate-complex > h1 > span {
+    font-family: "SVN-Recoleta", serif;
+    font-size: 50px;
+} 
+
+.first-desc-translate {
+    font-size: 16px;
+    color: #141414;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.second-desc-translate {
+    font-size: 16px;
+    color: #141414;
+    font-weight: 500;
+}
+
+/* Phần video */
+.video {
+    text-align: center;
+}
+
+/* Phần Content Strategy */
+
+.content-strategy {
+    display: flex;
+    margin: 0 106px 0 106px;
+    padding: 0 37px 0 15px;
+    opacity: 0.95;
+}
+
+
+.left-content-strategy {
+    font-size: 16px;
+    font-weight: 550;
+    color: #141414;
+    padding: 0 20px 0 20px ;
+}
+
+.left-content-strategy h3 {
+    font-size: 40px;
+    font-family: "SVN-Recoleta", serif;
+    padding-bottom: 25px;
+}
+
+.left-content-strategy p {
+    margin-bottom: 25px;
+}
+
+.left-content-strategy li {
+    list-style-type: square;
+}
+
+.right-content-strategy img {
+    max-width: 644px;
+}
+
+
+/* Phần wireframe */
+.wire-frame {
+    padding: 70px 140px 50px 140px;
+    background-color: #dedede;
+    margin-top: 70px;
+}
+
+.text-wire-frame {
+    padding: 0 20px 0 20px;
+    color: #141414;
+    width: 820px;
+    height: 212px;
+}
+
+.text-wire-frame h3 {
+    font-family: "SVN-Recoleta", serif;
+    line-height: 1.125;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.text-wire-frame p {
+    font-size: 16px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.img-wire-frame {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-wire-frame img {
+    width: 640px;
+    border-radius: 36px;
+    padding: 22px;
+}
+
+/* Phần custom website */
+.custom-website{
+    margin: 0 106px 0 106px;
+    padding: 100px 35px 0 35px;
+}
+
+.text-custom-website {
+    margin-bottom: 120px;
+    width: 820px;
+    height: 212px;
+}
+
+.text-custom-website h3 {
+    font-family: "SVN-Recoleta", serif;
+    line-height: 1.125;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.text-custom-website p {
+    font-size: 16px;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.web-scroll {
+    background-color: #dedede;
+    padding:  60px 35px 0px 35px;
+    margin-bottom: 70px;
+}
+
+.img-scroll {
+    margin: 0px 73px 0px 73px;
+    height: 763px;
+}
+
+.img-overflow {
+    overflow: auto;
+    aspect-ratio: 1032/596;
+}
+
+.img-overflow img {
+    width: 1025px;
+}
+
+/* Phần img lớn của website */
+
+.first-img-website {
+    margin: 0 111px 0 77px;
+    /* padding: 0 35px 0 35px; */
+    mix-blend-mode: darken;
+}
+
+.first-img-website img {
+    width: 1372px;
+}
+/* Phần ảnh thứ 2 của website */
+.second-img-website {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.second-img-website img {
+    width: 1490px;
+}
+
+/* Phần the outcome */
+.the-out-come {
+    font-size: 16px;
+    font-weight: 500;
+    width: 818px;
+    color: #141414;
+    flex: 1;
+    margin: 0 300px 0 430px;
+    padding-bottom: 70px;
+    opacity: 0.95;
+}
+
+.the-out-come p {
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.the-out-come ul {
+    margin-bottom: 70px;
+}
+
+.the-out-come li{
+    list-style-type: square;
+    opacity: 0.95;
+    padding-bottom: 8px;
+}
+
+#footer {
+    background-color: #f5f1ef;
+    background-image: url("https://www.viivue.com/wp-content/themes/viivue/assets/images/noise-texture-200.png");
+    
+}
+/* Phần let's chat */
+.cta-section {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding: 0px 35px;
+    margin: 0px 105.8px;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.mail-box{
+    padding: 0px 50px;
+}
+
+.mail-desc {
+    font-size: 20px;
+    width: 414px;
+    height: 90px;
+    padding-right: 20px;
+    margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #141414;
+    font-weight: 500;
+}
+
+.lets-chat a{
+    color: #141414;
+    font-size: 64px;
+    font-family: "SVN-Recoleta", serif;
+    font-weight: 300;
+    text-decoration: underline #de313e 2px;
+    text-underline-offset: 10px;
+    transition: all .3s ease;
+}
+
+.lets-chat a:hover svg{
+    color: #de313e;
+    margin-left: 20px;
+}
+
+.lets-chat svg {
+    transition: all .5s ease;
+}
+
+.lets-chat a:hover {
+    color: #de313e;
+}
+
+/* Phần footer contact */
+.site-footer {
+    background-color: #141414;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.container-footer {
+    background-color: #141414;
+   
+}
+
+.left-footer{
+    padding-right: 615px;
+}
+
+.left-footer img {
+    width: 220.75px;
+
+}
+
+.main-footer {
+    display: flex;
+}
+
+.center-footer > ul {
+    width: 220px;
+    height: 220px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family: "Basis Grotesque Pro", sans-serif;
+    
+}
+
+.ul-center {
+    list-style-type: square;
+    color: #fff
+}
+
+.center-footer > ul> li {
+    padding: 0 0 0 12px;
+    margin-bottom: 10px;
+}
+
+.center-footer > ul> li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+    transition: all .3s ease;
+}
+
+.center-footer > ul> li:hover a {
+    color: #f1c400;
+}
+
+.top-right-footer {
+    color: #fff;
+    height: 240px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.row-footer-desc {
+    color: white;
+    display: flex;
+    justify-content: start;
+    font-size: 15px;
+    font-family: "Basis Grotesque Pro", sans-serif;
+    font-weight: 550;
+    padding: 20px 0 20px 0;
+}
+
+.end-footer {
+    display: flex;
+}
+
+.end-footer a {
+    color: white;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.end-footer a:hover {
+    color: #f4d009;
+}
