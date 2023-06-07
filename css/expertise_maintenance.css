@@ -10,5 +10,34 @@
 
 .Ex_maintenance_content{padding-bottom: 40px ;max-width: 70%;padding-left: 3%;}
 .Ex_maintenance_content h2{font-size: 35px;}
- 
-  
+.Ex_maintenance_content ul li::before{color:rgb(255, 174, 0);content:'\25A0';position: relative;left:-10px;top:0px;font-size: 10px;}
+.Ex_maintenance_content ul {list-style-type: none;padding-left: 10px;} 
+
+@font-face{
+    font-family: FontsFree;
+    src: url("/fonts/FontsFree-Net-BasisGrotesquePro-Regular.ttf") format("truetype");  
+}
+@font-face{
+    font-family: BasisMedium;
+    src: url("/fonts/BasisGrotesquePro-Medium.woff2") format("truetype");
+}
+@font-face{
+    font-family: Recoleta;
+    src: url("/fonts/recoleta-regulardemo.otf") format("truetype");
+}
+@font-face{
+    font-family: Recoleta2;
+    src: url("/fonts/SVN-Recoleta.woff") format("truetype");
+}
+*{font-family: BasisMedium, Recoleta2, sans-serif}
+.Ex_maintenance_content h2{
+    font-family: Recoleta2;
+    font-size: 50px;
+    max-width: 90%;
+}
+.Ex_maintenance_content h3{
+    font-family: Recoleta2;
+}
+.Ex_maintenance_header h1{
+    font-size: 25px;
+}

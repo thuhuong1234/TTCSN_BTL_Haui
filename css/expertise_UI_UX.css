@@ -14,3 +14,32 @@
  #UI_content .UI_ct_btn a{text-decoration: none;color:black}
  #UI_content .UI_ct_btn:hover{box-shadow: 5px 5px; transition: 1s;background-color: rgb(255, 174, 0);}
  #UI_content{max-width: 70%;padding-left:3% ;}
+
+ @font-face{
+    font-family: FontsFree;
+    src: url("/fonts/FontsFree-Net-BasisGrotesquePro-Regular.ttf") format("truetype");  
+}
+@font-face{
+    font-family: BasisMedium;
+    src: url("/fonts/BasisGrotesquePro-Medium.woff2") format("truetype");
+}
+@font-face{
+    font-family: Recoleta;
+    src: url("/fonts/recoleta-regulardemo.otf") format("truetype");
+}
+@font-face{
+    font-family: Recoleta2;
+    src: url("/fonts/SVN-Recoleta.woff") format("truetype");
+}
+*{font-family: BasisMedium, Recoleta2, sans-serif}
+#UI_content h2{
+    font-family: Recoleta2;
+    font-size: 50px;
+    max-width: 70%;
+}
+#UI_content h3{
+    font-family: Recoleta2;
+}
+.UI_header h1{
+    font-size: 25px;
+}
