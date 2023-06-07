@@ -1,0 +1,10 @@
+home - oke
+work oke
+--sua work\
+force work
+--yến
+ui/ux thiếu phần cuối
+hiển thị nửa trang
+tăng opacity
+
+--sửa expertise 

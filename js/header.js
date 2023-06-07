@@ -7,7 +7,7 @@ const headerString = `<!-- header desktop -->
         <div class="menu">
             <ul class="menu_list flex-center">
                 <li class="menu_item">
-                    <a href="../../index.html" class="menu_item_link">Home</a>
+                    <a href="../sourceCode/homePage/homePage.html" class="menu_item_link">Home</a>
                 </li>
                 <li class="menu_item" data-curPage="Work">
                     <a href="../html/work.html" class="menu_item_link">Work</a>
