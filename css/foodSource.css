@@ -299,6 +299,62 @@ span > a:hover {
   /* background: #efc200; */
   border: 2px solid #efc200;
 }
+.related-project {
+  display: flex;
+  margin-left: 8%;
+  margin-top: 40px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.title {
+  font-family: SVN-Recoleta;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.links a {
+  font-family: "Basis Grotesque Pro";
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+.links {
+  margin-top: 5px;
+  padding: 0;
+  margin-bottom: 70px;
+}
+
+.wrapper {
+  width: 400px;
+  padding-right: 40px;
+}
+
+.wrapper img {
+  width: 400px;
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+
+.links a:hover {
+  color: #f1c400;
+  transition: all 0.3s ease-in-out;
+}
+
+.wrapper img:hover {
+  transform: scale(1.1);
+}
+
+.zoom {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 .button {
   margin-bottom: 10px;
   display: flex;
@@ -334,8 +390,9 @@ span > a:hover {
   font-size: 20px;
   padding-left: 20px;
 }
-.content-nextpage {
+.content-nextpage > a {
   font-size: 70px;
+  font-family: "Basis Grotesque Pro";
   display: flex;
   align-items: center;
   justify-content: space-around;
