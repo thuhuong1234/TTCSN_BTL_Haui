@@ -1,7 +1,7 @@
 const headerString = `<!-- header desktop -->
 <div class="header nav-desktop hiden_mobile">
     <div class="header_wraper flex-between">
-        <a href="../../index.html" class="logo">
+        <a href="../sourceCode/homePage/homePage.html" class="logo">
             <img src="../images/viivue-black.svg" alt="">
         </a>
         <div class="menu">

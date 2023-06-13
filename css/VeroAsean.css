@@ -1,269 +1,288 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
-.banner{
-    margin: 40px 40px;
-    border-radius: 20px;
-    display: flex;
-    background-image: url("https://www.viivue.com/wp-content/uploads/2022/06/Vero-Banner.jpg.webp");
+.VeroAsean-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
 }
-.banner-left{
-    margin: 80px 100px;
-    order: 1;
-    flex: 1;
-    color: #ffff;
+.banner {
+  border-radius: 20px;
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  background-image: url("https://www.viivue.com/wp-content/uploads/2022/06/Vero-Banner.jpg.webp");
 }
-.link a, .web a{
-    color: #ffff;
-    text-decoration: none;
-    font-weight: 500;
+.banner-left {
+  margin: 50px 50px;
+  /* order: 1;
+  flex: 1; */
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.link i{
-    padding: 0 20px;
+.link a,
+.web a {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 500;
 }
-h2{
-    padding: 25px 0;
-    font-size: 40px;
-    font-weight: 500;
+h2 {
+  padding: 25px 0;
+  font-size: 40px;
+  font-weight: 500;
 }
-.title{    
-    color: #ffff;
-    list-style-type: none;
+.title {
+  color: #ffff;
+  list-style-type: none;
 }
-h5{
-    color: #de313e;
-    font-weight: 500;
-    letter-spacing: 2px;
+h5 {
+  color: #de313e;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 .web {
-    padding: 22px 0 50px 0;
-    line-height: 26px;
-    font-size: 16px;
+  padding: 22px 0 50px 0;
+  line-height: 26px;
+  font-size: 16px;
 }
-.platform p{
-    padding-top: 22px;
-    font-weight: 500;
+.platform p {
+  padding-top: 22px;
+  font-weight: 500;
 }
-.title_image{
-    order: 1;
-    flex: 2;
-    margin-right: 100px;
-    height: auto;
-    max-width: 650px;
+.title_image {
+  display: flex;
+  align-items: center;
+
+  height: auto;
+  max-width: 650px;
 }
-.link a, h5, .web a, p, .button a{
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+.title_image > img {
+  height: auto;
+  width: 75%;
 }
-.link a:hover{
-    text-decoration: underline;
+.link a,
+h5,
+.web a,
+p,
+.button a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-.content-part1-p1, .content-part1-p2{
-    margin: 0 22%;
-    max-width: 810px;   
+.link a:hover {
+  text-decoration: underline;
 }
-h1{
-    line-height: 70px;
-    font-size: 50px;
-    font-weight: 500;
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    padding: 20px 0 50px 0;
+.content-part1-p1,
+.content-part1-p2 {
+  margin: 0 22%;
+  max-width: 810px;
 }
-h2{
-    font-size: 40px;
-    font-weight: 500;
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+h1 {
+  line-height: 70px;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  padding: 20px 0 50px 0;
 }
-p{
-    padding: 10px 0 15px 0;
-    line-height: 25px;
-    font-weight: 500;
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
-.content-part1-p2{
-    padding: 60px 0;
+p {
+  padding: 10px 0 15px 0;
+  line-height: 25px;
+  font-weight: 500;
 }
-.content-part1 video{
-    max-width: 83%;
-    height: auto;
-    margin: 0 9%; 
+.content-part1-p2 {
+  padding: 60px 0;
 }
-.content-part2{
-    display: flex;
-    margin: 2% 9%;
+.content-part1 video {
+  max-width: 83%;
+  height: auto;
+  margin: 0 9%;
 }
-.left{
-    order: 1;
-    flex: 1;
-    padding-right: 40px;
-    max-width: 760px;
+.content-part2 {
+  display: flex;
+  margin: 2% 9%;
 }
-.content-part2 img{
-    order: 2;
-    flex: 1;
-    padding-top: 35px;
-    max-width: 50%;
-    height: 30%;
+.content-part2-left {
+  order: 1;
+  flex: 1;
+  padding-right: 40px;
+  max-width: 760px;
 }
-.content-part3{
-    padding-left: 5%;
-    background-color: #e1e1e1;
+.content-part2 img {
+  order: 2;
+  flex: 1;
+  padding-top: 35px;
+  max-width: 50%;
+  height: 30%;
 }
-.homepage{
-    padding: 100px 0 0 4.5%;
-    max-width: 770px;
+.content-part3 {
+  padding-left: 5%;
+  background-color: #e1e1e1;
 }
-.content-part3 img{
-    height: auto;
-    max-width: 94%;
+.homepage {
+  padding: 100px 0 0 4.5%;
+  max-width: 770px;
 }
-.content-part4{
-    margin-left: 10%;
-    padding: 50px 0 40px 0;
+.content-part3 img {
+  height: auto;
+  max-width: 94%;
 }
-.content-part4 p{
-    max-width: 840px;
+.content-part4 {
+  margin-left: 10%;
+  padding: 50px 0 40px 0;
 }
-.content-part4_image img{
-    width: 43%;
-    margin: 3% 3%  0 0;
-    border-radius: 8px;
+.content-part4 p {
+  max-width: 840px;
 }
-.image{
-    width: 97%;
-    margin: 20px;
+.content-part4_image img {
+  width: 43%;
+  margin: 3% 3% 0 0;
+  border-radius: 8px;
 }
-.button{  
-    margin: 60px auto;
-    width: 170px;
-    height: 40px;
-    border: 2px solid #141414;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 5px 5px;
+.image {
+  width: 97%;
+  margin: 20px;
 }
-.button a{  
-    line-height: 35px;
-    text-decoration: none;
-    color: #141414;
-    font-weight: 600;
-    font-size: 16px;
-    word-spacing: 2px;
+.button {
+  margin: 60px auto;
+  width: 170px;
+  height: 40px;
+  border: 2px solid #141414;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px;
 }
-.button:hover{
-    box-shadow: 7px 7px;
-    transition: all 0.3s ease-out;
-    background-color: #f1c400;
+.button a {
+  line-height: 35px;
+  text-decoration: none;
+  color: #141414;
+  font-weight: 600;
+  font-size: 16px;
+  word-spacing: 2px;
+}
+.button:hover {
+  box-shadow: 7px 7px;
+  transition: all 0.3s ease-out;
+  background-color: #f1c400;
 }
 .box {
-    background-color: #ebbf00;
-    max-width: 1250px;
-    height: auto;
-    min-width: 800px;
-    margin: auto;
-    display: flex;
-    border-radius: 12px;  
+  background-color: #ebbf00;
+  max-width: 1250px;
+  height: auto;
+  min-width: 800px;
+  margin: auto;
+  display: flex;
+  border-radius: 12px;
 }
-@media (min-width: 900px){ 
-    .box{
-        flex-direction: row;
-    }
+@media (min-width: 900px) {
+  .box {
+    flex-direction: row;
+  }
 }
-.box-left{
-    width: 70%;  
+.box-left {
+  width: 70%;
 }
-.box-left p{ 
-    margin-top: 40px;
-    line-height: 35px;
-    font-size: 30px;
-    padding: 20px 180px 20px 60px;
-    border-right: 2px solid #141414;
-    display: flex; 
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+.box-left p {
+  margin-top: 40px;
+  line-height: 35px;
+  font-size: 30px;
+  padding: 20px 180px 20px 60px;
+  border-right: 2px solid #141414;
+  display: flex;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
-.box-right{
-    padding: 55px 0px;
-    width: 30%;
+.box-right {
+  padding: 55px 0px;
+  width: 30%;
 }
-.box-right p{
-    padding: 0px 95px 0 50px;
-    font-weight: 500; 
-    font-size: 16px;
-    line-height: 26px;   
+.box-right p {
+  padding: 0px 95px 0 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
-.show_less{
-    background-color: #ebbf00;
-    border: none;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-    padding: 20px 0 30px 60px;
-    border-radius: 10px;
+.show_less {
+  background-color: #ebbf00;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  padding: 20px 0 30px 60px;
+  border-radius: 10px;
 }
-.project-all h2{
-    padding: 80px 0 10px 20px;
+.project-all h2 {
+  padding: 80px 0 10px 20px;
 }
-.project-all{
-    margin: 0 8%;
-    min-width: 980px;
+.project-all {
+  margin: 0 8%;
+  min-width: 980px;
 }
-.project{      
-    align-items: center;
-    justify-content: space-around; 
-    display: flex;
-    margin-bottom: 200px;
+.project {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  margin-bottom: 200px;
 }
-.project-name{
-    padding-top: 30px;
-    width: 30%;
-    height: 300px;
+.project-name {
+  padding-top: 30px;
+  width: 30%;
+  height: 300px;
 }
-.image-project{
-    display: inline-block;
-    overflow: hidden;
-    border-radius: 10px; 
+.image-project {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
 }
-.image-project img{
-    width: 100%;
-    height: auto;  
-    border-radius: 10px; 
-    display: block;
-    transition: all 0.2s  ease-in-out;
+.image-project img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease-in-out;
 }
-.image-project img:hover{
-    transform: scale(1.03, 1.03);
+.image-project img:hover {
+  transform: scale(1.03, 1.03);
 }
-.project-name a{
-    text-decoration: none;
+.project-name a {
+  text-decoration: none;
 }
-.project-name h4{
-    font-size:30px;
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    font-weight: 500;
-    line-height: 40px;
-    padding-top: 10px;
-    color: #141414;
+.project-name h4 {
+  font-size: 30px;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 500;
+  line-height: 40px;
+  padding-top: 10px;
+  color: #141414;
 }
-.link-project{
-    display: flex;
-    flex-wrap: wrap;  
+.link-project {
+  display: flex;
+  flex-wrap: wrap;
 }
-.link-project li{
-    line-height: 30px; 
-    list-style-type: none;
+.link-project li {
+  line-height: 30px;
+  list-style-type: none;
 }
-.link-project li, .link-project a{
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    flex-wrap: wrap;
-}   
-.link-project a{
-    text-decoration: none;
-    padding:0 6px 0 8px;  
-    color: #141414;
+.link-project li,
+.link-project a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  flex-wrap: wrap;
 }
-.link-project a:hover{
-    color: #f1c400;
-    transition: all 0.3s ease;
+.link-project a {
+  text-decoration: none;
+  padding: 0 6px 0 8px;
+  color: #141414;
 }
-
+.link-project a:hover {
+  color: #f1c400;
+  transition: all 0.3s ease;
+}

@@ -331,12 +331,17 @@ a {
   padding: 0 35px;
 }
 
+@font-face {
+  font-family: "SVN-Recoleta";
+  src: url(/fonts/SVN-Recoleta.woff);
+}
 .body__introduction--heading-content-below {
   text-align: center;
   color: #141414;
   min-width: 240px;
   padding-top: 65px;
   padding-bottom: 60px;
+  font-family: "SVN-Recoleta", serif;
 }
 
 .body__introduction--heading-content-below > p {
@@ -348,7 +353,7 @@ a {
 
 .body__introduction--heading-content-below > h2 > span {
   font-size: 64px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "SVN-Recoleta", serif;
   line-height: 1.1;
   margin-bottom: 5px;
   font-weight: 300;

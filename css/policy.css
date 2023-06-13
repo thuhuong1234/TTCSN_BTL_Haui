@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: "SVN-Recoleta";
+  src: url(../fonts/SVN-Recoleta.woff);
+}
 .site-content {
   padding-top: 100px;
 }
@@ -30,17 +34,19 @@ h1 {
 }
 .page-title {
   font-size: 60px;
+  font-family: "SVN-Recoleta", serif;
 }
 .ev-content-wrapper > h2 {
   color: var(--vii-color-heading);
   margin-bottom: 20px;
-  font-family: var(--vii-font-secondary);
+  font-family: "SVN-Recoleta", serif;
   font-weight: 400;
   font-size: 40px;
 }
 .ev-content-wrapper > p {
   color: #000000;
   font-weight: 500;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -76,9 +82,57 @@ h1 {
   align-items: center;
   justify-content: space-around;
 }
+.content-nextpage > a {
+  font-family: "SVN-Recoleta", serif;
+}
 .content-nextpage > a:hover {
   color: #e0303d;
 }
 .content-nextpage > a > i:hover {
   translate: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .content-nextpage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .content-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .content-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .content-nextpage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .content-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .content-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }

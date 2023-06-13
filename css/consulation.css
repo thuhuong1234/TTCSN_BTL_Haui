@@ -20,7 +20,10 @@
 .content-cons-content {
   padding-bottom: 45px;
 }
-
+@font-face {
+  font-family: "SVN-Recoleta";
+  src: url(../fonts/SVN-Recoleta.woff);
+}
 .content-cons-content > h1 {
   display: flex;
   justify-content: center;
@@ -28,4 +31,5 @@
   font-weight: 400;
   font-size: 65px;
   text-align: center;
+  font-family: "SVN-Recoleta", serif;
 }
