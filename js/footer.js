@@ -50,9 +50,9 @@ const footerString = `<div class="container">
                 <li class="footer_info_item">
                     <i class="fa-solid fa-phone"></i>
                     <span>
-                        <a href="#" class="footer_text footer_link">(+84) 909 690 517</a>
+                        <a href="tel:+84909690517" class="footer_text footer_link">(+84) 909 690 517</a>
                         <br>
-                        <a href="#" class="footer_text footer_link">(+84) 28 6684 2991</a>
+                        <a href="tel:+842866842991" class="footer_text footer_link">(+84) 28 6684 2991</a>
                     </span>
                 </li>
                 <br>
@@ -91,7 +91,7 @@ const footerString = `<div class="container">
             <a href="#" class="footer_text footer_link">Term of Use</a>
         </div>
         <div class="policy">
-            <a href="#" class="footer_text footer_link">Privacy Policy</a>
+            <a href="../html/policy.html" class="footer_text footer_link">Privacy Policy</a>
         </div>
     </div>
 </div>

@@ -347,6 +347,7 @@ ul.ex_head_sidenav li a:hover:not(.active) {
   text-align: right;
   text-decoration: none;
   box-shadow: 0 1.5px red;
+  font-family: "SVN-Recoleta", serif;
 }
 #Viivue_web_footer_first_right a:hover {
   color: red;
