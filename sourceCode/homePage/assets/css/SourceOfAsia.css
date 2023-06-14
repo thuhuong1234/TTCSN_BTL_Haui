@@ -87,76 +87,6 @@
     background-color: #f4d009;
 }
 
-.main-content {
-    /* padding-top: 80px; */
-}
-/* Day la phan banner */
-#banner {
-    padding: 0 35px;
-    margin-bottom: 60px;
-}
-
-.banner_inner {
-    position: relative;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.banner_studies {
-    /* position: absolute; */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: relative;
-}
-
-.banner_img {
-    width: auto;
-    object-fit: cover;
-    object-position: center center;
-    height: 100%;
-    /* width: 100%; */
-    min-height: 100%;
-    min-width: 100%;
-    max-height: 100%;
-    max-width: 100%;
-    aspect-ratio: 3;
-}
-
-.banner-text-wrapper{
-    margin: 0 70.8px;
-    padding: 0 35px;
-    position: absolute;
-}
-
-#content {
-    margin: 0 105.8;
-    padding: 0 35px;
-}
- /* Video */
-.video {
-    /* user-select: none;
-    position: relative;
-    max-width: 1248px;
-    max-height: 772px;
-    margin: 0 -20px;
-    padding: 0 20px;
-    background: #000;
-    aspect-ratio: 16/9;
-    margin-bottom: 100px; */
-}
-
-.video > video {
-    user-select: none;
-    position: relative;
-    max-width: 1248px;
-    max-height: 772px;
-    background: #000;
-    aspect-ratio: 16/9;
-    margin-bottom: 100px;
-}
-
 #main-content{
     padding-top: 10px;
 }
@@ -166,33 +96,33 @@
     background-image: url("https://www.viivue.com/wp-content/themes/viivue/assets/images/noise-texture-200.png");
     text-align: center;
     position: relative;
-    padding-bottom: 60px;
+    padding-bottom: 5%;
 }
 
 .image-first-slide img{
     border-radius: 20px;
     overflow: hidden;
-    height: 560px;
+    /* height: 560px; */
     width: 95%;
 }
 
 .text-first-slide{
     position: absolute;
     display: flex;
-    padding: 0 35px 0 35px;
-    margin: 0 70.8px 0 70.8px;
+    margin: 0 10% 0 5%;
+    padding: 3% 5% 0 5%;
 }
 
 .left-text-slide {
     text-align: start;
-    margin: 81px 0px 0px 73px;
-    width: 500px;
+    margin: 5% 0 0 5%;
+    min-width: 500px;
 }
 
 .left-text-slide h2 {
     font-family: "SVN-Recoleta", serif;
     font-size: 45px;
-    margin-bottom: 25px;
+    margin-bottom: 5%;
 }
 
 .header_pixel_text {
@@ -201,7 +131,7 @@
 }
 
 .top-desc-slide {
-    padding-bottom: 15px;
+    padding-bottom: 3%;
 }
 
 .top-desc-slide a {
@@ -216,7 +146,7 @@
 }
 
 .top-desc-slide svg {
-    margin: -8px 10px 0 10px;
+    margin: -2% 3% 0 3%;
 }
 
 .bottom-desc-slide {
@@ -225,18 +155,15 @@
 }
 
 .what-we-did{
-    margin-bottom: 45px;
+    margin-bottom: 12%;
 }
 
 /* Phần translate complex */
 .translate-complex {
-    /* text-align: center; */
-    flex: 1;
-    padding: 0 50px 0 50px;
-    margin: 0 300px 0 340px;
-    padding-bottom: 70px;
     opacity: 0.95;
-
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 
 .translate-complex > h1 > span {
@@ -248,13 +175,16 @@
     font-size: 16px;
     color: #141414;
     font-weight: 500;
-    padding-bottom: 50px;
+    padding-bottom: 4%;
+    max-width: 47.5%;
 }
 
 .second-desc-translate {
     font-size: 16px;
     color: #141414;
     font-weight: 500;
+    max-width: 47.5%;
+    margin-bottom: 5%;
 }
 
 /* Phần video */
@@ -262,12 +192,22 @@
     text-align: center;
 }
 
+.video > video {
+    user-select: none;
+    position: relative;
+    background: #000;
+    aspect-ratio: 16/9;
+    max-width: 82%;
+    margin-bottom: 8%;
+}
+
+
 /* Phần Content Strategy */
 
 .content-strategy {
     display: flex;
-    margin: 0 106px 0 106px;
-    padding: 0 37px 0 15px;
+    margin: 0 7% 0 7%;
+    padding: 0 1% 0 1%;
     opacity: 0.95;
 }
 
@@ -276,17 +216,17 @@
     font-size: 16px;
     font-weight: 550;
     color: #141414;
-    padding: 0 20px 0 20px ;
+    padding: 0 2% 0 2%;
 }
 
 .left-content-strategy h3 {
     font-size: 40px;
     font-family: "SVN-Recoleta", serif;
-    padding-bottom: 25px;
+    padding-bottom: 6%;
 }
 
 .left-content-strategy p {
-    margin-bottom: 25px;
+    margin-bottom: 6%;
 }
 
 .left-content-strategy li {
@@ -300,23 +240,22 @@
 
 /* Phần wireframe */
 .wire-frame {
-    padding: 70px 140px 50px 140px;
     background-color: #dedede;
-    margin-top: 70px;
+    margin-top: 5%;
+    padding: 4.5% 10% 4% 9%;
 }
 
 .text-wire-frame {
-    padding: 0 20px 0 20px;
     color: #141414;
-    width: 820px;
-    height: 212px;
+    max-width: 820px;
+    min-height: 212px;
 }
 
 .text-wire-frame h3 {
     font-family: "SVN-Recoleta", serif;
     line-height: 1.125;
     font-size: 40px;
-    padding-bottom: 25px;
+    padding-bottom: 5%;
 }
 
 .text-wire-frame p {
@@ -333,17 +272,17 @@
 .img-wire-frame img {
     width: 640px;
     border-radius: 36px;
-    padding: 22px;
+    padding: 1%;
 }
 
 /* Phần custom website */
 .custom-website{
-    margin: 0 106px 0 106px;
-    padding: 100px 35px 0 35px;
+    padding: 6% 2.45% 0 2%;
+    margin: 0 7% 0 7%;
 }
 
 .text-custom-website {
-    margin-bottom: 120px;
+    margin-bottom: 10%;
     width: 820px;
     height: 212px;
 }
@@ -352,7 +291,7 @@
     font-family: "SVN-Recoleta", serif;
     line-height: 1.125;
     font-size: 40px;
-    padding-bottom: 25px;
+    padding-bottom: 5%;
 }
 
 .text-custom-website p {
@@ -363,12 +302,12 @@
 
 .web-scroll {
     background-color: #dedede;
-    padding:  60px 35px 0px 35px;
-    margin-bottom: 70px;
+    padding: 4% 2.8% 0 2.8%;
+    margin-bottom: 5%;
 }
 
 .img-scroll {
-    margin: 0px 73px 0px 73px;
+    margin: 0 5.9% 0px 6.5%;
     height: 763px;
 }
 
@@ -384,35 +323,36 @@
 /* Phần img lớn của website */
 
 .first-img-website {
-    margin: 0 111px 0 77px;
-    /* padding: 0 35px 0 35px; */
+    padding: 0 3% 0 3%;
+    margin: 0 2% 0 2%;
     mix-blend-mode: darken;
 }
 
 .first-img-website img {
-    width: 1372px;
+    width: 100%;
 }
 /* Phần ảnh thứ 2 của website */
 .second-img-website {
-    padding-top: 30px;
+    padding-top: 2.5%;
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 5%;
 }
 
 .second-img-website img {
-    width: 1490px;
+    width: 95%;
 }
 
 /* Phần the outcome */
 .the-out-come {
     font-size: 16px;
     font-weight: 500;
-    width: 818px;
+    max-width: 95%;
     color: #141414;
-    flex: 1;
-    margin: 0 300px 0 430px;
-    padding-bottom: 70px;
+    margin: 0 32% 0 30%;
+    padding-bottom: 5%;
     opacity: 0.95;
+    display: flex;
+    flex-direction: column;
 }
 
 .the-out-come p {
@@ -439,13 +379,8 @@
 /* Phần let's chat */
 .cta-section {
     display: flex;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding: 0px 35px;
-    margin: 0px 105.8px;
     justify-content: center;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding: 5%;
 }
 
 .mail-box{
