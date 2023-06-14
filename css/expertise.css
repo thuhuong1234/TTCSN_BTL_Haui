@@ -1,6 +1,11 @@
 * {
   font-family: "var(--vii-font-secondary)";
 }
+@font-face {
+  font-family: "SVN-Recoleta";
+  src: url(../fonts/SVN-Recoleta.woff);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -271,6 +276,7 @@ ul.ex_head_sidenav li a:hover:not(.active) {
 #ex_opacity_3 {
   font-size: 25px;
   padding-right: 30px;
+  font-family: "SVN-Recoleta", serif;
 }
 .ex_content_left p {
   font-size: 25px;
@@ -596,6 +602,187 @@ ul.ex_head_sidenav li a:hover:not(.active) {
     height: 80%;
   }
   .pro_content {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .process_1,
+  .process_2,
+  .process_3,
+  .process_4 {
+    padding: 20px 30px;
+    max-width: 50%;
+  }
+  .process_1,
+  .process_2 {
+    border-bottom: 2px rgba(128, 128, 128, 0.258) solid;
+  }
+  .ex_logo {
+    flex-wrap: wrap;
+  }
+  .ex_logo_item {
+    flex: 33%;
+  }
+  .ex_logo_item img {
+    width: 80%;
+    height: auto;
+  }
+  .Viivue_web_footer_first {
+    flex-wrap: wrap;
+  }
+  .Viivue_web_footer_second {
+    flex-wrap: wrap;
+  }
+  .Viivue_web_footer_last_1,
+  .Viivue_web_footer_last_2 {
+    flex-wrap: wrap;
+  }
+  #Viivue_web_footer_first_left {
+    flex: 100%;
+    padding: 15px;
+  }
+  #Viivue_web_footer_first_center {
+    flex: 100%;
+    max-width: 60%;
+    padding: 15px;
+  }
+  #Viivue_web_footer_first_right {
+    flex: 100%;
+    padding: 10px 15px;
+  }
+  .Viivue_web_footer_first #Viivue_web_footer_first_left img {
+    width: auto;
+    height: 100%;
+  }
+
+  #Viivue_web_footer_last_1_center {
+    display: none;
+  }
+  #Viivue_web_footer_last_1_left {
+    flex: 100%;
+    padding: 20px;
+  }
+  #Viivue_web_footer_img {
+    width: 30%;
+    height: auto;
+  }
+}
+@font-face {
+  font-family: FontsFree;
+  src: url("/fonts/FontsFree-Net-BasisGrotesquePro-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: BasisMedium;
+  src: url("/fonts/BasisGrotesquePro-Medium.woff2") format("truetype");
+}
+@font-face {
+  font-family: Recoleta;
+  src: url("/fonts/recoleta-regulardemo.otf") format("truetype");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Recoleta2;
+  src: url("/fonts/SVN-Recoleta.woff") format("truetype");
+}
+* {
+  font-family: BasisMedium, Recoleta2, sans-serif;
+}
+#ex2_left,
+#process,
+.ex3_header {
+  font-family: Recoleta;
+}
+.process_1 h3,
+.process_2 h3,
+.process_3 h3,
+.process_4 h3 {
+  font-family: Recoleta;
+}
+#ex3_text1,
+#ex3_text2,
+#ex3_text3,
+#ex1_home {
+  color: black;
+}
+.ex_content_left p {
+  font-family: Recoleta2;
+}
+#Viivue_web_footer_first_right a,
+#Viivue_web_footer_second_left a,
+#Viivue_web_footer_second_right a {
+  font-family: Recoleta, serif;
+}
+#ex_collapse {
+  font-family: Recoleta2;
+}
+.ex3_content,
+.ex3_content a,
+#ex3_text2 a,
+#ex3_text3 a {
+  font-family: FontsFree;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .ex_wapper {
+    height: 100vh;
+    width: auto;
+  }
+  .ex_head_logo img {
+    height: auto;
+    width: 80%;
+  }
+  .Expertise_header {
+    margin-top: 400px;
+  }
+  .ex_head_nav {
+    width: 50%;
+    height: auto;
+  }
+  ul.ex_head_sidenav {
+    padding-left: 0;
+  }
+  ul.ex_head_sidenav li {
+    width: 19%;
+  }
+  .ex_head_btn button {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+  .Expertise_2 #ex2_left {
+    font-size: 50px;
+    min-width: 60%;
+    width: 77%;
+    height: auto;
+  }
+  .ex_wapper_background {
+    height: 1300px;
+    transform: translateZ(-8px) scale(2);
+  }
+  .Expertise_3 {
+    flex-wrap: wrap;
+  }
+  .Expertise_3 #ex3_text {
+    flex-wrap: wrap;
+    flex: 100%;
+  }
+  #ex3_text1,
+  #ex3_text2,
+  #ex3_text3 {
+    flex: 50%;
+  }
+  .Expertise_3 #ex3_img {
+    flex: 100%;
+    padding-left: 30%;
+  }
+  #ex3_img img {
+    width: auto;
+    height: 80%;
+  }
+  .pro_content {
+    display: flex;
     flex-wrap: wrap;
   }
   .process_1,
@@ -742,11 +929,17 @@ ul.ex_head_sidenav li a:hover:not(.active) {
   #ex3_img img {
     height: 80%;
   }
+  .pro_content {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
   .process_1,
   .process_2,
   .process_3,
   .process_4 {
-    flex: 100%;
+    max-width: 100%;
     border-bottom: 2px rgba(128, 128, 128, 0.258) solid;
   }
   .ex_logo_item {
@@ -766,6 +959,7 @@ ul.ex_head_sidenav li a:hover:not(.active) {
     flex-wrap: wrap;
   }
   .ex_logo {
+    width: 100%;
     flex-wrap: wrap;
   }
   .ex_content_left {
