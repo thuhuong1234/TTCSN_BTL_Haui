@@ -274,6 +274,9 @@ a:hover {
     padding: 0;
     margin: auto;
   }
+  .latest-works {
+    font-size: 120px;
+  }
 }
 
 html {
