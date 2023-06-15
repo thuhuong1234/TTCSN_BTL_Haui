@@ -330,7 +330,7 @@ a {
 
 @font-face {
   font-family: "SVN-Recoleta";
-  src: url(/fonts/SVN-Recoleta.woff);
+  src: url(//./fonts/SVN-Recoleta.woff);
 }
 .body__introduction--heading-content-below {
   text-align: center;
